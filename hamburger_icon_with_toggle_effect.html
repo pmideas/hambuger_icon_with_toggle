@@ -1,0 +1,46 @@
+<!doctype>
+<html lang="en">
+   <head>
+      <title>Hamburger icon with toggle effect </title>
+      <link rel="stylesheet" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <!-- Start container -->
+      <div class="container">
+
+         <!-- Start section -->
+         <section class="padding_space">
+
+            <!-- Start header -->
+            <header class="heading">
+               <h3 class="title_heading">Hamburger icon with toggle effect</h3>
+               <span class="underline"></span>
+            </header>
+            <!-- End header -->
+	    <!-- Start menu -->
+            <div id="menu" onclick="addicon(this)">
+               <span class="line line1"></span>
+               <span class="line line2"></span>
+               <span class="line line3"></span>
+            </div>
+	 <!-- End menu -->
+         </section>
+         <!-- End section -->
+
+         <!-- Start footer -->
+         <footer id="footername">
+            <h2 class="authorname">@pm_ideas</h2>
+         </footer>
+         <!-- End footer -->
+
+      </div>
+      <!-- End container -->
+      <script>
+         function addicon(x) {
+         x.classList.toggle("change");
+         }
+         
+      </script>
+   </body>
+</html>
